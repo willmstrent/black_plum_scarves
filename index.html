@@ -13,15 +13,20 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" type="text/css" href="css/blackplum.css"/>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/blackplum.js"></script>
+
   <style>
     .my-container {
       border : 1px solid;
@@ -35,14 +40,32 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-    <div class="row topnav-space">
-      <div class="col-4 logo">
-        <img src="images/BlackPlum_logo.svg" alt="Black Plum Logo">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" aria-label="Close Menu">&times;</a>
+    <h5>
+    <a href="project.html">Project</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    </h5>
+  </div>
 
+
+<div class="container">
+    <div class="row">
+      <div class="col-6 logo">
+        <img src="images/BlackPlum_logo.svg" alt="Black Plum Logo">
       </div>
-      <div class="col">
-        xy
+      <div class="col-2 topnav">
+        <a href="project.html">Project</a>
+      </div>
+      <div class="col-2 topnav">
+        <a href="about.html">About</a>
+      </div>
+        <div class="col-2 topnav">
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="col hamburger">
+        <span class="openbtn" onclick="openNav()" aria-label="Open Menu">&#9776;</span>
       </div>
     </div>
 </div>
