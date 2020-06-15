@@ -19,6 +19,10 @@ body {
   .bgcolor {
     background-color: #616c7a;
     }
+  .bg-foot {
+    background-color: #e8e8e8;
+  }
+
 
 
 
@@ -51,16 +55,10 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0rem; }
 }
 
 
-
-
-p {
-  margin-top: 0; }
-
 /* Knockout type */
 
 .kotype {
   color: #fff;
-
 }
 
 
@@ -95,6 +93,9 @@ a.nodecor:hover {
 .u-max-half-width {
     max-width: 50%;
     box-sizing: border-box; }
+
+.border-on {
+    border : 1px solid;}
 
 
 /* Topnav
