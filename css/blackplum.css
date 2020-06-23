@@ -16,6 +16,15 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: #222; }
 
+  blockquote {
+
+    border-left: 10px solid #8E9EB3;
+      margin: 0em 0px;
+      padding-left:  1rem ;
+
+
+  }
+
 /* Div background color */
   .bgcolor {
     background-color: #616c7a;
@@ -83,14 +92,18 @@ a:hover {
   text-decoration: underline;
 }
 
-a.shadow {
-   box-shadow:  inset 0 -4px 0 #F64FDA;
+a.bluerule {
+   box-shadow:   0 4px 0 #8E9EB3;
 }
 
-a.nodecor:hover {
+a.bluerule:hover {
   color: #000;
   text-decoration: none;
+  box-shadow:   0 4px 0 #B6CBE6;
 }
+
+
+
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
