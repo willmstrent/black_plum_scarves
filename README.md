@@ -8,13 +8,13 @@ The website in development here will eventually become an ecommerce site used to
 _____________
 Stages
 
-1. Design System
-Typography, UI components, layout
+1. Design System<br>
+Typography, UI components, layout.
 
-2. Written Content
+2. Written Content<br>
 I will develop content that creates a context for the product. 
 
-3. Ecommerce
+3. Ecommerce<br>
 I would like to use the most versatile components to acheive this. So I am leaning toward some type of JAMstack solution. But I will have to balance the amount that I will need to learn with completing the project in a reasonable amount of time.
 
 
