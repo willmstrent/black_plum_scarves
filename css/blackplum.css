@@ -7,6 +7,10 @@
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+:root {
+  --main-link-color: #8E9EB3;
+}
+
 html {
 font-size: 100%; }   /* 16px */
 body {
@@ -17,13 +21,37 @@ body {
   color: #222; }
 
   blockquote {
-
-    border-left: 10px solid #8E9EB3;
+    border-left: 10px solid var(--main-link-color);
       margin: 0em 0px;
       padding-left:  1rem ;
-
-
   }
+
+  .buttonlink {
+    border: 1px solid var(--main-link-color);
+    /* background: var(--main-link-color); */
+    border-radius: .25rem;
+    padding: .5em 1em .5em 1em;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    display: inline-block;
+  }
+
+  .buttonlink a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .buttonlink:hover a{
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .buttonlink:hover {
+    background-color: var(--main-link-color);
+  }
+
 
 /* Div background color */
   .bgcolor {
@@ -93,7 +121,7 @@ a:hover {
 }
 
 a.bluerule {
-   box-shadow:   0 4px 0 #8E9EB3;
+   box-shadow:   0 4px 0 var(--main-link-color);
 }
 
 a.bluerule:hover {
