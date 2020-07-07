@@ -26,6 +26,14 @@ body {
       padding-left:  1rem ;
   }
 
+  .eyebrow {
+      font-size: .75rem;
+      line-height: 1.5;
+      letter-spacing: .15rem;
+      text-transform: uppercase;
+
+  }
+
   .buttonlink {
     border: 1px solid var(--main-link-color);
     /* background: var(--main-link-color); */
@@ -51,6 +59,7 @@ body {
   .buttonlink:hover {
     background-color: var(--main-link-color);
   }
+
 
 
 /* Div background color */
@@ -106,6 +115,7 @@ strong {
 
 .kotype {
   color: #fff;
+  letter-spacing: 0rem;
 }
 
 
