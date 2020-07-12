@@ -21,16 +21,17 @@ body {
   color: #222; }
 
   blockquote {
-    border-left: 10px solid var(--main-link-color);
+    border-left: 6px solid var(--main-link-color);
       margin: 0em 0px;
-      padding-left:  1rem ;
+      padding-left:  .75rem ;
   }
 
   .eyebrow {
-      font-size: .75rem;
-      line-height: 1.5;
-      letter-spacing: .15rem;
+      font-size: .65rem;
+      line-height: 2;
+      letter-spacing: .05rem;
       text-transform: uppercase;
+      color : #000;
 
   }
 
@@ -131,11 +132,14 @@ a:hover {
 }
 
 a.bluerule {
-   box-shadow:   0 4px 0 var(--main-link-color);
+   box-shadow:   0 2px 0 var(--main-link-color);
+   /* text-decoration-color: #EA215A;
+   text-decoration-thickness: .125em;
+   text-underline-offset: 1.5px; */
 }
 
 a.bluerule:hover {
-  color: #000;
+  color: #B6CBE6;
   text-decoration: none;
   box-shadow:   0 4px 0 #B6CBE6;
 }
