@@ -37,10 +37,10 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+/* h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
+} */
 
 /* Grouping content
    ========================================================================== */
@@ -91,7 +91,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* 
+/*
 b,
 strong {
   font-weight: bolder;
