@@ -114,7 +114,7 @@ small, .text_small {font-size: 0.75em; line-height: 1.35; letter-spacing: 0rem;}
 
 /* Larger than phablet*/
 @media (min-width: 576px) {
-  .super_title { font-size: 5.75rem; line-height: 1; font-weight: 400;}
+  .super_title { font-size: 5.75rem; line-height: 1; font-weight: 400;letter-spacing: 0rem;}
   h1 { font-size: 4.25rem; line-height: 1.35; }
   h2 { font-size: 3rem; line-height: 1.25; letter-spacing: -.075rem;}
   h3 { font-size: 2.25rem; line-height: 3.25rem;}
